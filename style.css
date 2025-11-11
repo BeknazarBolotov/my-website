@@ -1,44 +1,36 @@
-/* General page styling */
 body {
   font-family: Arial, sans-serif;
-  background-color: #f0f4f8;
+  text-align: center;
+  background-color: #f0f8ff;
   color: #333;
   margin: 0;
   padding: 0;
-  text-align: center;
 }
 
-/* Header styling */
 header {
-  background-color: #007acc;
+  background-color: #4CAF50;
   color: white;
-  padding: 20px 0;
+  padding: 20px;
 }
 
-/* Main section styling */
 main {
   margin-top: 40px;
 }
 
+input {
+  padding: 10px;
+  font-size: 16px;
+  width: 60px;
+}
+
 button {
-  background-color: #007acc;
-  color: white;
-  border: none;
   padding: 10px 20px;
   font-size: 16px;
+  margin-left: 10px;
   cursor: pointer;
-  border-radius: 5px;
 }
 
 button:hover {
-  background-color: #005fa3;
-}
-
-/* Footer styling */
-footer {
-  background-color: #eee;
-  padding: 10px;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
+  background-color: #e5533c;
+  color: white;
 }
